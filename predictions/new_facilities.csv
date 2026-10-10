@@ -1,0 +1,5 @@
+facility_id,cleanliness_score,odor_score,waste_level,complaints,footfall,hours_since_cleaning
+NEW001,8.5,1.0,2.0,0,120,1.5
+NEW002,4.0,7.5,8.0,7,850,14
+NEW003,6.0,4.0,5.0,3,430,6
+NEW004,2.5,9.0,9.0,10,950,20

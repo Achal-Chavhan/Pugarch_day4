@@ -1,0 +1,116 @@
+{
+  "logistic_regression": {
+    "classification_report": {
+      "High": {
+        "precision": 0.8108108108108109,
+        "recall": 0.8823529411764706,
+        "f1-score": 0.8450704225352113,
+        "support": 34.0
+      },
+      "Low": {
+        "precision": 0.8297872340425532,
+        "recall": 0.8666666666666667,
+        "f1-score": 0.8478260869565217,
+        "support": 45.0
+      },
+      "Medium": {
+        "precision": 0.7222222222222222,
+        "recall": 0.6341463414634146,
+        "f1-score": 0.6753246753246753,
+        "support": 41.0
+      },
+      "accuracy": 0.7916666666666666,
+      "macro avg": {
+        "precision": 0.7876067556918621,
+        "recall": 0.7943886497688507,
+        "f1-score": 0.7894070616054695,
+        "support": 120.0
+      },
+      "weighted avg": {
+        "precision": 0.7876592017549465,
+        "recall": 0.7916666666666666,
+        "f1-score": 0.7881073330629361,
+        "support": 120.0
+      }
+    },
+    "confusion_matrix_labels": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "confusion_matrix": [
+      [
+        30,
+        0,
+        4
+      ],
+      [
+        0,
+        39,
+        6
+      ],
+      [
+        7,
+        8,
+        26
+      ]
+    ]
+  },
+  "random_forest": {
+    "classification_report": {
+      "High": {
+        "precision": 0.7105263157894737,
+        "recall": 0.7941176470588235,
+        "f1-score": 0.75,
+        "support": 34.0
+      },
+      "Low": {
+        "precision": 0.7307692307692307,
+        "recall": 0.8444444444444444,
+        "f1-score": 0.7835051546391752,
+        "support": 45.0
+      },
+      "Medium": {
+        "precision": 0.6,
+        "recall": 0.43902439024390244,
+        "f1-score": 0.5070422535211268,
+        "support": 41.0
+      },
+      "accuracy": 0.6916666666666667,
+      "macro avg": {
+        "precision": 0.6804318488529014,
+        "recall": 0.6925288272490567,
+        "f1-score": 0.6801824693867674,
+        "support": 120.0
+      },
+      "weighted avg": {
+        "precision": 0.6803542510121456,
+        "recall": 0.6916666666666667,
+        "f1-score": 0.679553869609409,
+        "support": 120.0
+      }
+    },
+    "confusion_matrix_labels": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "confusion_matrix": [
+      [
+        27,
+        1,
+        6
+      ],
+      [
+        1,
+        38,
+        6
+      ],
+      [
+        10,
+        13,
+        18
+      ]
+    ]
+  }
+}

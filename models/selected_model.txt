@@ -1,0 +1,2 @@
+Selected model: logistic_regression
+Selection rule: highest macro F1-score on the held-out test set.
